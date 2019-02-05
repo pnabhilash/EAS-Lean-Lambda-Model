@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "processId": "ABCD",
+  "processName": "TestDataProcess",
+  "cooksRequestObj": "com.test.cics",
+  "reqColumns": [{
+    "columnName": "requestType",
+    "columnStart": 0,
+    "columnEnd": 4,
+    "columnHex2Ascii": true,
+    "cooksRequestMappingColumn": "transactionCode"
+  },
+    {
+      "columnName": "storeNumber",
+      "columnStart": 4,
+      "columnEnd": 8,
+      "columnHex2Ascii": false,
+      "cooksRequestMappingColumn": "storeNumber"
+    }
+  ]
+}
